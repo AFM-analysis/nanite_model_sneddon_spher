@@ -22,6 +22,8 @@ def hertz_spherical(delta, double E, double R, double nu,
                     double contact_point=0, double baseline=0):
     r"""Hertz model for Spherical indenter - modified by Sneddon
 
+    This model is only available after installing the
+    `nanite_model_sneddon_spher` Python package.
 
     .. math::
 

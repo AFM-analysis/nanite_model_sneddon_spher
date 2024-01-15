@@ -8,10 +8,13 @@ iterative Hertz model for a spherical indenter (modified by Sneddon)
 for the `nanite <https://github.com/AFM-analysis/nanite>`_
 AFM force-indentation analysis package.
 
+This model is an optional component of nanite and is only of academic
+interest.
+
 
 Installation
 ------------
-To install the latest release, simply run:
+To install the latest release:
 
 ::
 
