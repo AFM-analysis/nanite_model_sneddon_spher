@@ -36,7 +36,6 @@ def test_app_ret():
     params.add("nu", value=.5, vary=False)
     params.add("R", value=10e-6, vary=False)
 
-    fit_w = lmfit.minimize(hertzSpherical.residual, params, args=(x, y, True))
     fit_n = lmfit.minimize(hertzSpherical.residual, params, args=(x, y, False))
     # Correctly reproduces fit results in the JPK analysis software
     # with "Vertical Tip Position", "Switchable Baseline Operation",
