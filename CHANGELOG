@@ -1,3 +1,5 @@
+1.0.2
+ - build: update build pipeline
 1.0.1
  - build: trigger builds with numpy 2
 1.0.0
